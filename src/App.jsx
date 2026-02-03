@@ -1,4 +1,6 @@
+import { Canvas } from '@react-three/fiber'
+import Experience from './components/Experience'
 function App() {
-  return <div className="bg-black text-white h-screen">Loading Portfolio...</div>
+  return <div className="h-screen w-full"><Canvas><Experience /></Canvas></div>
 }
 export default App;
